@@ -1,5 +1,7 @@
 <h1>lkgmkmhglom</h1>
 
-<?php 
-echo 'usuario:'. $_POST['nome']. '.<br>';
-echo 'email:'. $_POST['email']. '.<br>';
+<?php
+echo 'Usuário: ' . $_POST['nome'] . '<br>';
+echo 'E-mail: ' . $_POST['email'] . '<br>';
+
+?>
