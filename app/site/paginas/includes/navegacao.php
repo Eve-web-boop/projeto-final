@@ -12,10 +12,30 @@
 
         </ul>
 
+        <?php
+         if (isset($_SESSION[''])) {  ?>
+           
+         }
+         <ul class="navbar-nav">
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <span class="icon-circleci"> </span>
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item text-danger" href="#"><span class="icon-codacy"></span> Sair</a>
+             </div>
+           </li>
+         </ul>
+
+         <?php
+         }else {
+        ?>
+
+
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="icon-circleci"></span>
+              <span class="icon-circleci"> </span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item text-danger" href="#"><span class="icon-codacy"></span> Sair</a>
