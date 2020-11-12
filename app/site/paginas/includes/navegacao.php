@@ -15,7 +15,7 @@
         <?php
          if (isset($_SESSION[''])) {  ?>
            
-         }
+         
          <ul class="navbar-nav">
            <li class="nav-item dropdown">
              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,16 +32,14 @@
         ?>
 
 
+
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="icon-circleci"> </span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-danger" href="#"><span class="icon-codacy"></span> Sair</a>
-            </div>
-          </li>
+        <li class="nav-item active"><a class="nav-link btn btn-outline-secondary " href="cpanel.php?pg=cpanel">login </a></li>
         </ul>
+<?php 
+         }
+         ?>
+
       </div>
     </nav>
   </div>
