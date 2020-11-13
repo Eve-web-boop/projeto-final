@@ -8,23 +8,23 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="app/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="app/painelAdm/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="app/painelAdm/plugins/summernote/summernote-bs4.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -37,7 +37,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="index3.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -84,7 +84,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="app/painelAdm/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -100,7 +100,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="app/painelAdm/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -160,7 +160,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="index3.php" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
@@ -204,19 +204,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="app/painelAdm/./index.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v1</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="app/painelAdm/./index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="app/painelAdm/./index3.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v3</p>
                 </a>
@@ -243,7 +243,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/top-nav.html" class="nav-link">
+                <a href="app/painelAdm/pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Top Navigation</p>
                 </a>
@@ -267,13 +267,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
+                <a href="app/painelAdm/pages/layout/fixed-sidebar-custom.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fixed Sidebar <small>+ Custom Area</small></p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-topnav.html" class="nav-link">
+                <a href="app/painelAdm/pages/layout/fixed-topnav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fixed Navbar</p>
                 </a>
@@ -285,7 +285,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/collapsed-sidebar.html" class="nav-link">
+                <a href="app/painelAdm/pages/layout/collapsed-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Collapsed Sidebar</p>
                 </a>
@@ -308,13 +308,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
+                <a href="app/painelAdm/pages/charts/flot.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Flot</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/inline.html" class="nav-link">
+                <a href="app/painelAdm/pages/charts/inline.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Inline</p>
                 </a>
@@ -331,7 +331,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+                <a href="app/painelAdm/pages/UI/general.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>General</p>
                 </a>
@@ -343,13 +343,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/buttons.html" class="nav-link">
+                <a href="app/painelAdm/pages/UI/buttons.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Buttons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
+                <a href="app/painelAdm/pages/UI/sliders.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sliders</p>
                 </a>
@@ -361,7 +361,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/navbar.html" class="nav-link">
+                <a href="app/painelAdm/pages/UI/navbar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Navbar & Tabs</p>
                 </a>
@@ -373,7 +373,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/ribbons.html" class="nav-link">
+                <a href="app/painelAdm/pages/UI/ribbons.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ribbons</p>
                 </a>
@@ -396,19 +396,19 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="app/painelAdm/pages/forms/advanced.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Advanced Elements</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
+                <a href="app/painelAdm/pages/forms/editors.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editors</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/validation.html" class="nav-link">
+                <a href="app/painelAdm/pages/forms/validation.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Validation</p>
                 </a>
@@ -425,19 +425,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <a href="app/painelAdm/pages/tables/simple.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Tables</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="app/painelAdm/pages/tables/data.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
+                <a href="app/painelAdm/pages/tables/jsgrid.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>jsGrid</p>
                 </a>
@@ -455,7 +455,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="app/painelAdm/pages/gallery.html" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -480,7 +480,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                <a href="app/painelAdm/pages/mailbox/mailbox.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Inbox</p>
                 </a>
@@ -492,7 +492,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/read-mail.html" class="nav-link">
+                <a href="app/painelAdm/pages/mailbox/read-mail.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Read</p>
                 </a>
@@ -509,7 +509,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/examples/invoice.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/invoice.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Invoice</p>
                 </a>
@@ -533,7 +533,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/project-add.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/project-add.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project Add</p>
                 </a>
@@ -545,7 +545,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/project-detail.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/project-detail.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project Detail</p>
                 </a>
@@ -557,13 +557,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/faq.html" class="nav-link active">
+                <a href="app/painelAdm/pages/examples/faq.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>FAQ</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/contact-us.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/contact-us.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Contact us</p>
                 </a>
@@ -595,19 +595,19 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/register.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/register.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Register v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/forgot-password.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/forgot-password.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Forgot Password v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/recover-password.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/recover-password.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Recover Password v1</p>
                     </a>
@@ -624,7 +624,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="pages/examples/login-v2.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/login-v2.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Login v2</p>
                     </a>
@@ -636,13 +636,13 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/forgot-password-v2.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/forgot-password-v2.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Forgot Password v2</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="pages/examples/recover-password-v2.html" class="nav-link">
+                    <a href="app/painelAdm/pages/examples/recover-password-v2.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Recover Password v2</p>
                     </a>
@@ -650,37 +650,37 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/lockscreen.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/lockscreen.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lockscreen</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/legacy-user-menu.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/legacy-user-menu.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Legacy User Menu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/language-menu.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/language-menu.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Language Menu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/404.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/404.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Error 404</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/500.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/500.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Error 500</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/pace.html" class="nav-link">
+                <a href="app/painelAdm/pages/examples/pace.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pace</p>
                 </a>
@@ -709,13 +709,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/search/simple.html" class="nav-link">
+                <a href="app/painelAdm/pages/search/simple.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simple Search</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/search/enhanced.html" class="nav-link">
+                <a href="app/painelAdm/pages/search/enhanced.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Enhanced</p>
                 </a>

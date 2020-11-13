@@ -5,40 +5,33 @@
 //include_once "app/site/paginas/includes/navegacao.php";
 // fim navegaçaão 
 
+if (!isset($_SESSION['usuario'])) {
+    $usuario = 'Kemelly@gmail.com';
+    $senha = '123456';
 
-// fim header 
+    session_start();
 
-echo "<hr>";
+    $_SESSION['usuario'] = $usuario;
+    $_SESSION['senha'] = $senha;
+     
 
-//páginas do meu site 
-
-echo "<h1></h1>";
-
-//Fim páginas do meu site 
-
-echo "<hr>";
-
-
-$paginas = isset($_GET['pg']);
-
-if ($paginas) {
-    # code...
     switch ($_GET['pg']) {
-
         case 'cpanel':
-            include_once "app/painelAdm/paginas/login.php";
+            include_once "app/painelAdm/index.php";
             break;
-
-
-
-
+        case 'login':
+            include_once "app/painelAdm/index.php";
+            break;
+        
         default:
-            include_once "app/site/paginas/inicial.php";
+            # code...
             break;
     }
 } else {
-    include_once "app/site/paginas/inicial.php";
+
+    include_once "app/painelAdm/paginas/login.php";
 }
+    # code...
 
 //rodapé
 

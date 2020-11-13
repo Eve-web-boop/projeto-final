@@ -8,7 +8,7 @@ include_once "app/site/paginas/includes/navegacao.php";
 
 // fim header 
 
-echo "<hr>";
+echo "";
 
 //páginas do meu site 
 
@@ -16,7 +16,7 @@ echo "<h1></h1>";
 
 //Fim páginas do meu site 
 
-echo "<hr>";
+echo "";
 
 
 $paginas= isset($_GET['pg']);
